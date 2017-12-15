@@ -1,0 +1,11 @@
+body {
+    background-color: lightblue;
+    color: white;
+}
+
+#tupian {
+    background-image: url(../images/mahua.gif);
+    background-size: 100% 100%;
+    width: 100px;
+    height: 100px;
+}
