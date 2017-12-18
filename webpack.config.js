@@ -29,8 +29,7 @@ module.exports = {
     //配置入口文件的地址，可以是单一入口，也可以是多入口。
     entry: {
         entry: './src/entry.js', //entry随意取
-        jquery: 'jquery',
-        vue: "vue"
+        jquery: 'jquery'
     },
     //配置出口文件的地址，在webpack2.X版本后，支持多出口配置
     output: {
@@ -114,8 +113,7 @@ module.exports = {
         // 下面是插件
         new webpack.BannerPlugin('laia所写模块'), //作者版权声明
         new webpack.ProvidePlugin({ //引入外部类库
-            $: "jquery",
-            'vue': 'vue'
+            $: "jquery"
         }),
         new CleanWebpackPlugin(['./dist', './build'], {
             //root: '/Practice', //webpack.config的地址
